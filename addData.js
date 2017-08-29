@@ -19,7 +19,7 @@ function adsliderInit(index) {
 			document.getElementById("para").innerHTML = object.content[index].para;
 
 			document.getElementById("img").innerHTML =
-			'<img src="img/' + object.content[index].img + '">';
+			'<img class="ui fluid image" src="img/' + object.content[index].img + '">';
 
 
 
