@@ -1,0 +1,15 @@
+/*Layout and structure*/
+img{
+	width: auto;
+	height:700px;
+}
+
+.body1{
+	background-color: red;
+	background-size: cover;
+	padding:10%;
+}
+.body2 {
+	background-color: blue ;
+	background-size: cover;
+}
