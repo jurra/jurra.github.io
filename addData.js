@@ -3,8 +3,7 @@ var i=0;
 
 function adsliderInit(index) {
 
-$("#head1, #para").removeClass("animated fadeIn").removeClass(" animated shake");
-
+$("#head1, #para, #img").removeClass("animated fadeIn");
 	if (index < 0){
 		index = 0;
 	}
@@ -14,26 +13,16 @@ $("#head1, #para").removeClass("animated fadeIn").removeClass(" animated shake")
 	}
 
     $.getJSON("data.json", function(object) {
-
+			// Jquery animations, add classes first
+			$("#head1, #para, #img").addClass("animated fadeIn");
 			//Populate with data different areas
-			document.getElementById("head1").innerHTML = object.content[index].head1;
-
-			$("#head1, #para").addClass("animated fadeIn").addClass(" animated shake");
-			// $("#head1").fadeOut("slow");
-
-			// $("#head1").animate({
-			// 	opacity: 0,
-			// 	// left: "+=50",
-			// 	height: ""
-			// }, 1000, function() {
-			// 	// Animation complete.
-			// });
+			var storeObj = object.content[index];
+			document.getElementById("head1").innerHTML = storeObj.head1;
+			document.getElementById("para").innerHTML = storeObj.para;
+			document.getElementById("img").innerHTML = '<img class="ui fluid image" src="img/' + storeObj.img + '">';
+			document.getElementById("column2").innerHTML = storeObj.body;
 
 
-			document.getElementById("para").innerHTML = object.content[index].para;
-			// document.getElementById("img").innerHTML = '<img class="ui fluid image" src="img/' + object.content[index].img + '">';
-			document.getElementById("column2").innerHTML = object.content[index].body;
-			// Jquery animations
 
 
 			//update i variable to move back and forward
