@@ -1,6 +1,9 @@
+
 var i=0;
 
 function adsliderInit(index) {
+
+$("#head1, #para").removeClass("animated fadeIn").removeClass(" animated shake");
 
 	if (index < 0){
 		index = 0;
@@ -13,18 +16,18 @@ function adsliderInit(index) {
     $.getJSON("data.json", function(object) {
 
 			//Populate with data different areas
-
 			document.getElementById("head1").innerHTML = object.content[index].head1;
 
-			// $("#head1").addClass("animated bounce");
+			$("#head1, #para").addClass("animated fadeIn").addClass(" animated shake");
+			// $("#head1").fadeOut("slow");
 
-			$("#head1").animate({
-				opacity: 0.25,
-				// left: "+=50",
-				height: "toggle"
-			}, 1000, function() {
-				// Animation complete.
-			});
+			// $("#head1").animate({
+			// 	opacity: 0,
+			// 	// left: "+=50",
+			// 	height: ""
+			// }, 1000, function() {
+			// 	// Animation complete.
+			// });
 
 
 			document.getElementById("para").innerHTML = object.content[index].para;

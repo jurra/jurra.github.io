@@ -16,10 +16,11 @@ img{
 
 
 .body1{
+	background-size: auto;
 	background-color: #005252;
 	/*background-size: cover;*/
 	padding:10%;
-	min-height: 100vh;
+	min-height: 90vh;
 
 
 
