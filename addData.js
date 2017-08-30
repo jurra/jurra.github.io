@@ -1,3 +1,6 @@
+$.ajaxSetup({
+	async: false
+});
 
 var i=0;
 
