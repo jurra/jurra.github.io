@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Jose Portfolio</title>
-		<script type="text/javascript">
-		/*
-			1. basic concept a carrousel with two content wrappers,
-			One for text, the other for images
+<head>
+	<meta charset="utf-8">
+	<title>Jose Portfolio</title>
+	<script type="text/javascript">
+	/*
+	1. basic concept a carrousel with two content wrappers,
+	One for text, the other for images
 
-			2. Structure (Component view): Json Files with text
+	2. Structure (Component view): Json Files with text
 
-		*/
-		</script>
+	*/
+	</script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
 
-		<script
-	  src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	  crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
-		<script type="text/javascript" src="addData.js"></script>
+	<!-- Scripts  -->
 
-	</head>
-	<body>
-		<div class="ui two column stackable grid">
-			<div class="five wide column body1" style="height:100%">
-				<div class="body1" >
-						<h1 id="head1">Here we need to have some text images etc.</h1>
-						<h5 id="para"></h5>
-						<button class="ui button" type="button" onclick="adsliderInit(i-1)">
-							Previous
-						</button>
-						<button class="ui button" type="button" onclick="adsliderInit(i+1)">
-							Next
-						</button>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
 
-				</div>
-				</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
 
-			<div id="img" class="eleven wide column body2" style="height:300px">
 
+	<script src="addData.js"></script>
+
+</head>
+<body>
+	<div class="ui left fluid container">
+	<div class="ui two column stackable grid">
+		<div id="column1" class="five wide column body1">
+			<div class="body1">
+				<h1 id="head1">Here we need to have some text images etc.</h1>
+				<h5 id="para"></h5>
 			</div>
+
+			<button class="ui button huge inverted bottom" type="button" onclick="adsliderInit(i-1)">
+				Previous
+			</button>
+			<button class="ui button huge inverted bottom" type="button" onclick="adsliderInit(i+1)">
+				Next
+			</button>
 		</div>
+
+		<div id="img" class="ten wide column" style="width:50%;z-index:-1;">
+
+		</div>
+
+	</div>
 </div>
 
 
 
-	</body>
+</div>
+</body>
 </html>

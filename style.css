@@ -1,15 +1,35 @@
 /*Layout and structure*/
+body{
+	color:#33AFAF !important;
+}
+
 img{
 	/*width: auto;*/
 	/*height:700px;*/
 }
 
+.bottom{
+	position: relative;
+	bottom:0px;
+	left:10%;
+}
+
+
 .body1{
-	background-color: #586994;
-	background-size: cover;
+	background-color: #005252;
+	/*background-size: cover;*/
 	padding:10%;
+	min-height: 90vh;
+
+
+
 }
 .body2 {
-	background-color: #E5E8B6 ;
-	background-size: cover;
+	/*background-color: #E5E8B6 ;*/
+	/*background-size: cover;*/
+}
+
+#column1{
+	position:relative;
+	box-shadow:  10px 0px 30px #816767;
 }
