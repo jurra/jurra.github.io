@@ -1,6 +1,7 @@
 /*Layout and structure*/
 body{
 	color:white !important;
+	position:;
 }
 
 img{
@@ -10,27 +11,54 @@ img{
 
 .bottom{
 	position: relative;
-	bottom:0px;
+	bottom:60px;
 	left:10%;
 }
 
 
 .body1{
-	background-size: auto;
-	background-color: #2ca7df;
+	/*background-color: #2ca7df;*/
 	/*background-size: cover;*/
 	padding:10%;
-	min-height: 90vh;
+	padding-top:28%;
+	min-height: 100vh;
+}
+
+.back1{
+	background:
+	linear-gradient(
+		rgba(0, 0, 0, 0.45),
+		rgba(0, 0, 0, 0.45)
+	),
 
 
-
+    url("img/column1.jpg");
+		background-repeat: : no-repeat;
+		background-size:cover;
 }
 .body2 {
 	/*background-color: #E5E8B6 ;*/
 	/*background-size: cover;*/
+	height: 100vh;
+}
+
+.back2{
+	background:
+	linear-gradient(
+		rgba(255, 255, 255, 0.8),
+		rgba(0, 0, 0, 0.45)
+	),
+    url("img/column2.jpg");
+		background-repeat: : no-repeat;
+		background-size:cover;
+		height: 100vh;
 }
 
 #column1{
 	position:relative;
 	box-shadow:  10px 0px 40px #816767;
+}
+
+.column2{
+	height:100vh !important;
 }
