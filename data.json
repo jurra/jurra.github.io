@@ -8,25 +8,25 @@
 			"para":
 
 			"Colors are temporary as well as controls, and stylings<br><br> It is a functional test, and is in the process of assinging classes, and creating animated interactions<br><br><h3>I am currently using semantic ui, which allows to build controls and grids very easily similar to bootstrap but with other advantages</h3><br><h3>The point of this portfolio is also to apply and integrate js,html5, json and css</h3>",
-			"img":"Nueronavegador.png"
+			"img":""
 		},
 		{
 			"head1":"Project B for Leila",
 				"para":
 					"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><br> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br><br> Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. ",
-				"img":"TigerDogIII.png"
+				"img":""
 
 		},
 		{
 			"head1":"Project c",
 			"para":
 			"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><br> Cum sociis natoque penatibus et magnis dis parturient montes,<br> <h2>nascetur ridiculus mus.</h2> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br><br> Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. ",
-			"img":"SketchDesign.jpg"
+			"img":""
 
 		},
 		{
 			"head1":"Project D Change",
-			"body":"here goes the body of the text"
+			"para":"here goes the body of the text"
 
 		}
 
