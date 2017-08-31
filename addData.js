@@ -7,8 +7,10 @@ var i=0;
 function adsliderInit(index) {
 
 $("#head1, #para, #img").removeClass("animated fadeIn");
-	if (index < 0){
-		index = 0;
+	if (index < 1){
+
+		history.go(0);
+
 	}
 
 	else if (index > 3){
@@ -28,10 +30,11 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 
 
 
+
 			//update i variable to move back and forward
 			return index;
 		});
 		return i=index;
 	};
 
-adsliderInit(i);
+// adsliderInit(i);
