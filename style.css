@@ -1,6 +1,6 @@
 /*Layout and structure*/
 body{
-	color:#33AFAF !important;
+	color:white !important;
 }
 
 img{
@@ -17,7 +17,7 @@ img{
 
 .body1{
 	background-size: auto;
-	background-color: #005252;
+	background-color: #2ca7df;
 	/*background-size: cover;*/
 	padding:10%;
 	min-height: 90vh;
@@ -32,5 +32,5 @@ img{
 
 #column1{
 	position:relative;
-	box-shadow:  10px 0px 30px #816767;
+	box-shadow:  10px 0px 40px #816767;
 }
