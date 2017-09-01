@@ -13,8 +13,8 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 
 	}
 
-	else if (index > 3){
-		index = 3;
+	else if (index > 4){
+		index = 4;
 	}
 
     $.getJSON("data.json", function(object) {
@@ -37,4 +37,12 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 		return i=index;
 	};
 
-// adsliderInit(i);
+// adsliderInit(i); //Run from the start (Init)
+
+
+// Sticky for buttons
+$('.ui.sticky')
+  .sticky({
+    context: '#column2'
+  })
+;

@@ -5,7 +5,7 @@
 	<title>Jose Portfolio</title>
 	<script type="text/javascript">
 	/*
-	1. basic concept a carrousel with two content wrappers,
+	1. "" concept a carrousel with two content wrappers,
 	One for text, the other for images
 
 	2. Structure (Component view): Json Files with text
@@ -19,26 +19,48 @@
 </head>
 <body class="back2">
 	<div class="ui two column stackable grid">
-		<div id="column1" class="six wide column back1">
+
+		<!-- 1st column or body -->
+
+		<div id="column1" class="five wide column back1">
 			<div class="body1">
 				<h1 id="head1">This is an infographic for Open Source Ecology</h1>
-				<h5 id="para">I also participated in the design of some parts of the cad and in the CAD modelling of the machinee, to publish it for the world.</h5>
-				
+				<div id="para">
+					<h5 >I also participated in the design of some parts of the cad and in the CAD modelling of the machinee, to publish it for the world.</h5>
+					<h2 class="">Go ahead and play around with the model</h2>
+				</div>
 			</div>
-			<button class="ui button huge bottom" type="button" onclick="adsliderInit(i-1)">
-				Previous
-			</button>
-			<button class="ui button huge bottom" type="button" onclick="adsliderInit(i+1)">
-				Next
-			</button>
+
+			<!--buttons wrapper -->
+			<!-- <div id="" class="bottom"> -->
+
+			<!-- </div> -->
 		</div>
 
-		<div id="img" class="ten wide column column2  body2" style="">
-			<iframe style="height:100vh;width:100%;background:none transparent;" src="https://sketchfab.com/models/0902cdcf125747dcb948e36cf56de802/embed?autostart=1&amp;transparent=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" allowtransparency="true"></iframe>
+		<div id="" class="ten wide column column2  body2" style="">
+			<div id="img">
+				<iframe style="height:100vh;width:100%;background:none transparent;" src="https://sketchfab.com/models/0902cdcf125747dcb948e36cf56de802/embed?autostart=1&amp;transparent=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" allowtransparency="true"></iframe>
+			</div>
 
+
+			<div class="">
+				<button class="ui button blue basic circular massive icon huge navButtonLeft" type="button" onclick="adsliderInit(i-1)">
+					<i class="angle left icon"></i>
+				</button>
+				<button class="ui button blue basic circular icon massive navButtonRight" type="button" onclick="adsliderInit(i+1)" style="margin-right:100px !important">
+					<i class="angle right icon"></i>
+				</button>
+
+
+
+			</div>
 		</div>
+
+
 
 	</div>
+
+
 </div>
 </div>
 
