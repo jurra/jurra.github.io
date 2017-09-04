@@ -29,13 +29,3 @@ var object =[
 	];
 
 var i= 0;
-
-
-function adsliderInit(index) {
-	console.log(object[i].title);
-  return i=index+1;
-	};
-
-adsliderInit(i);
-console.log(i);
-prompt("click right or left:");
