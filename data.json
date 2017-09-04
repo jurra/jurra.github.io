@@ -2,9 +2,10 @@
 
 	"content":
 
-	[{"head1":"Here it comes",
-		"para":"never know how this is going to end",
+	[{"head1":"Documentation with 3D models for the web",
+		"para":"This is a threedimensional infographic to share the novelties of this new 3D printer design<br>",
 		"img":"",
+		"logo":"",
 		"html":"pages/3Dprinter.html"
 	},
 
