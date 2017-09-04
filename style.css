@@ -1,8 +1,47 @@
-/*Layout and structure*/
-body{
+/*Test area*/
+
+@media (max-width: 800px) {
+  #sticked {
+    position: relative !important;
+  }
+	.back2{
+		/*background: url("")!important;*/
+		/*background-color: blue !important;*/
+	}
+	.body1{
+
+		/*background-color: #2ca7df;*/
+		/*background-size: cover;*/
+		right:5% !important;
+		padding-top:2% !important;
+		padding-left:2%!important;
+		/*overflow:scroll,hidden;*/
+		height:100%;
+
+	}
+}
+
+#sticked{
+	position:fixed;
+	/*z-index:-10;*/
+}
+
+
+/*Font size and padding, white space*/
+ body {
 	color:grey !important;
 	position:;
+	height:20px !important;
+	font-size: 18px !important;
+
 }
+
+#para{
+	font-size: 15px !important;
+}
+
+
+/*Layout and structure*/
 
 img{
 	/*width: auto;*/
@@ -10,25 +49,60 @@ img{
 }
 
 .bottom{
-	position: relative;
-	bottom:60px;
-	left:20%;
+	position:relative;
+	bottom:140px;
+	height:18%;
+	/*max-height: 100vh;*/
+	background:
+	linear-gradient(
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255)
+	);
 }
 
 
+/*General positioning of text in column 1*/
 .body1{
+
 	/*background-color: #2ca7df;*/
 	/*background-size: cover;*/
-	padding:12%;
+	right:5%;
 	padding-top:28%;
 	padding-left:20%;
-	min-height: 100vh;
+	/*overflow:scroll,hidden;*/
+	/*height:100vh;*/
+}
+
+.navButtonRight{
+	right:-3% !important;
+	padding-top:20%;
+	position:fixed;
+	top:40%;
+	z-index:1;
+
+}
+.navButtonLeft{
+	margin-right:5% !important;
+	padding-top:20%;
+	position:fixed;
+	top:40%;
+	z-index:1;
+
+}
+
+#column1{
+	/*Overflow to allow scroll of independent columns*/
+
+	/*position:relative;*/
+	/*overflow:scroll;*/
+	/*box-shadow:  10px 0px 40px #816767;*/
 }
 
 .back1{
+	height:100vh;
 	background:
 	linear-gradient(to right,
-		rgba(255, 255, 255, 0.99),
+		rgba(220, 220, 220, 0.99),
 		rgba(255, 255, 255, 0.01)
 	),
 
@@ -36,14 +110,17 @@ img{
 		background-repeat: : no-repeat;
 		background-size:cover;
 		/*z-index:;*/
+		padding-bottom:-10px !important;
 }
 .body2 {
 	/*background-color: #E5E8B6 ;*/
 	/*background-size: cover;*/
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
+/*Paper bacgrkound*/
 .back2{
+
 	background:
 	linear-gradient(
 		rgba(255, 255, 255, 0.99),
@@ -52,14 +129,12 @@ img{
     url("img/column2.jpg");
 		background-repeat: : no-repeat;
 		background-size:cover;
-		height: 100vh;
+		/*height: 100%;*/
 		z-index:-1;
+		background-attachment:fixed;
 }
 
-#column1{
-	position:relative;
-	/*box-shadow:  10px 0px 40px #816767;*/
-}
+
 
 .column2{
 	height:100vh !important;
