@@ -12,6 +12,8 @@ Done :Create an npm server (this was to use it incase load of html was needed)
 	## make a video about interactive mockup of Neuronavigator
 	## Use pictures of sketches
 	## First slide of mine with approach, projects, and story
+	## Link to logs in metaData from projects
+	## Make animated buttons
 
 
 ---------------31-8-2017 W_6--------------------
