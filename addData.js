@@ -13,8 +13,8 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 
 	}
 
-	else if (index > 4){
-		index = 4;
+	else if (index > 5){
+		index = 5;
 	}
 
     $.getJSON("data.json", function(object) {

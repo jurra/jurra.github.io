@@ -1,6 +1,21 @@
+--------------4-9-2017---------------------
+Done: Change font size of left column
+# Make animated button to point down, and white screen on top of content
+# stick the buttons in big screen view to the bottom, perhaps this can be the animation
+Done: Test loading html instead of json file/ wordpress concept
+
+ Done: load html with jquery
+
+Done :Create an npm server (this was to use it incase load of html was needed)
+
+#clean and prepare images
+	## make a video about interactive mockup of Neuronavigator
+	## Use pictures of sketches
+	## First slide of mine with approach, projects, and story
+
 
 ---------------31-8-2017 W_6--------------------
-# to be started:
+#Done to be started:
 	Resize the image of the 2nd big column so that it stays at the height of the viewport
 
 	Upload Project Slides

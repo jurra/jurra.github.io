@@ -1,5 +1,11 @@
 /*Test area*/
 
+
+/*Decoration*/
+.boxShadow{
+ box-shadow: 1px 10px 30px #888888;
+}
+
 @media (max-width: 800px) {
   #sticked {
     position: relative !important;
@@ -21,10 +27,39 @@
 	}
 }
 
+/*Sicked components*/
+
 #sticked{
 	position:fixed;
 	/*z-index:-10;*/
 }
+
+#fadeUp{
+	background:
+	linear-gradient(
+		rgba(255, 255, 255, 0.999),
+		rgba(255, 255, 255, 0)
+	);
+	height:70px;
+	position:fixed;
+	z-index:1 !important;
+	width:100%;
+
+}
+#fadeDown{
+	background:
+	linear-gradient(
+		rgba(255, 0, 255, 0),
+		rgba(255, 255, 255, 0.99)
+	);
+	height:100px;
+	position:fixed;
+	z-index:1 !important;
+	width:100%;
+	bottom:0px;
+
+}
+
 
 
 /*Font size and padding, white space*/
@@ -101,10 +136,10 @@ img{
 .back1{
 	height:100vh;
 	background:
-	linear-gradient(to right,
+	/*linear-gradient(to right,
 		rgba(220, 220, 220, 0.99),
 		rgba(255, 255, 255, 0.01)
-	),
+	),*/
 
     url("");
 		background-repeat: : no-repeat;
@@ -122,15 +157,15 @@ img{
 .back2{
 
 	background:
-	linear-gradient(
-		rgba(255, 255, 255, 0.99),
-		rgba(255, 255, 255, 0.5)
+	linear-gradient(to right,
+		rgba(255, 255, 255, 0.5),
+		rgba(255, 255, 255, 0.8)
 	),
-    url("img/column2.jpg");
+    url("img/column22.png");
 		background-repeat: : no-repeat;
 		background-size:cover;
 		/*height: 100%;*/
-		z-index:-1;
+		z-index:-10 !important;
 		background-attachment:fixed;
 }
 
@@ -138,4 +173,34 @@ img{
 
 .column2{
 	height:100vh !important;
+}
+
+/*Animated arrow*/
+
+/*@bg: #2d2d37; // Dark blue*/
+/*@primary: #fd6b21; // Orange*/
+
+body { background: @bg;}
+a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
