@@ -1,7 +1,7 @@
 /*Test area*/
 .metaProject{
 	position:absolute;
-	bottom:100px;
+	bottom:110px;
 	z-index:5 !important;
 }
 
@@ -23,12 +23,17 @@
 		/*background-color: #2ca7df;*/
 		/*background-size: cover;*/
 		right:5% !important;
-		padding-top:2% !important;
+		padding-top:5% !important;
 		padding-left:2%!important;
 		/*overflow:scroll,hidden;*/
 		height:100%;
 		padding-right:5%;
 
+	}
+
+	.metaProject{
+		position:relative;
+		bottom:0px;
 	}
 }
 
@@ -103,13 +108,14 @@ img{
 		rgba(255, 255, 255, 0.1),
 		rgba(255, 255, 255)
 	);
+
 }
 
 
 
 /*General positioning of text in column 1*/
 .body1{
-
+	position: auto;
 	/*background-color: #2ca7df;*/
 	/*background-size: cover;*/
 	right:5%;

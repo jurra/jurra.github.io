@@ -1,10 +1,12 @@
 --------------4-9-2017---------------------
+#Stackable grid for buttons
+
 Done: Change font size of left column
 # Make animated button to point down, and white screen on top of content
-# stick the buttons in big screen view to the bottom, perhaps this can be the animation
+Done: stick the buttons in big screen view to the bottom, perhaps this can be the animation
 Done: Test loading html instead of json file/ wordpress concept
 
- Done: load html with jquery
+Done: load html with jquery
 
 Done :Create an npm server (this was to use it incase load of html was needed)
 
