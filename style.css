@@ -1,7 +1,8 @@
 /*Test area*/
 .metaProject{
 	position:absolute;
-	bottom:70px;
+	bottom:100px;
+	z-index:5 !important;
 }
 
 /*Decoration*/
@@ -30,6 +31,7 @@
 
 	}
 }
+
 
 /*Sicked components*/
 
@@ -67,6 +69,10 @@
 
 
 /*Font size and padding, white space*/
+a{
+	color:grey !important;
+}
+
  body {
 	color:grey !important;
 	position:;
@@ -100,6 +106,7 @@ img{
 }
 
 
+
 /*General positioning of text in column 1*/
 .body1{
 
@@ -108,6 +115,7 @@ img{
 	right:5%;
 	padding-top:20%;
 	padding-left:20%;
+	padding-right:5%;
 	/*overflow:scroll,hidden;*/
 	/*height:100vh;*/
 }
