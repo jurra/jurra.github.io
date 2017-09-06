@@ -37,6 +37,13 @@
 	}
 }
 
+@media (max-width: 500px){
+	.ui.button{
+		width:100%;
+		margin:2% !important;
+	}
+}
+
 
 /*Sicked components*/
 
