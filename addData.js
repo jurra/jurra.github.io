@@ -27,8 +27,9 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 			$("#img").load(storeObj.html);
 			document.getElementById("head1").innerHTML = storeObj.head1;
 			document.getElementById("para").innerHTML = storeObj.para;
+			// document.getElementById("date1").innerHTML = storeObj.date;
 			// document.getElementById("meta").innerHTML = '<img class="ui tiny image" src="logos/' + storeObj.logo + '">';
-			document.getElementById("meta").innerHTML= storeObj.logo;
+			document.getElementById("metaD").innerHTML= storeObj.logo;
 
 
 			// document.getElementById("column2").innerHTML = storeObj.body;
