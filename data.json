@@ -2,47 +2,60 @@
 
 	"content":
 
-	[{"head1":"Documentation with 3D models for the web",
-		"para":"This is a threedimensional infographic to share the novelties of this new 3D printer design<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		"img":"",
-		"logo":"<img class=\"ui tiny image\" src=\"logos/oseG.png\"><div class=\"ui hidden divider\"></div>",
-		"html":"pages/3Dprinter.html"
-	},
-	{
-		"head1":"Cuban National Library",
-		"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"logo":"<img class=\"ui small image\" src=\"logos/libraryG.png\">",
-		"html":"pages/library.html"
-	},
+	[
+		{},
 
-	{
-		"head1":"Optima screening app",
-		"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">",
-		"html":"pages/optima.html"
-	},
+		{"head1":"Documentation with 3D models for the web | 2017",
+			"date":" 2012",
+			"role":"",
+			"para":"This is a threedimensional infographic to share the novelties of this new 3D printer design<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"img":"",
+			"logo":"<img class=\"ui tiny image\" src=\"logos/oseG.png\"><div class=\"ui hidden divider\"></div>",
+			"html":"pages/3Dprinter.html"
+		},
+		{
+			"head1":"National Library of Cuba | 2013",
+			"date":"1930",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. But to retrieve related content with metadata.The styles and graphics have been partially implemented",
+			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
+			"html":"pages/library.html"
+		},
 
-	{"head1":"Heart transporter",
-		"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
-		"html": "pages/heartTransport.html"
-	},
-	{
-		"head1":"Integrated work desk",
-		"para":
-		"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><br> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>",
+		{
+			"head1":"Optima | 2012",
+			"date":"2030",
+			"role":"",
+			"para":"Optima is android app. It was developed in the Cuban Neuroscience Center to assist National healthcare systems in the screening of learning disorders.This includes  Dyslexia, hearing problems, learning diseases and their possible causes.<br><br>My role was to analyze the task flows and design an App that captures the activity structure. It includes navigation through databases of registered child's, introducing new child's in the system, coordination with the monitoring web application, as well as selection and running of tests. ",
+			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">",
+			"html":"pages/optima.html"
+		},
 
-		"img":"",
-		"html":"pages/homeWorkplace.html"
+		{"head1":"Heart transporter",
+			"date":"",
+			"role":"",
+			"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
+			"html": "pages/heartTransport.html"
+		},
+		{
+			"head1":"Integrated work desk",
+			"date":"",
+			"role":"",
+			"para":
+			"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><br> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>",
+			"img":"",
+			"html":"pages/homeWorkplace.html"
 
-	},
-	{
-		"head1":"Neuronavigation software",
-		"para":
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
-		"html":"pages/neuroNav.html"
+		},
+		{
+			"head1":"Neuronavigation software",
+			"date":"",
+			"role":"",
+			"para":
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+			"html":"pages/neuroNav.html"
 
-	}
+		}
 
-]
+	]
 }

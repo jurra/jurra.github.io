@@ -1,5 +1,29 @@
+------------------------------------------
+#Project priorities
+	## Home Page
+	## Optima,
+	## Neuronavigator,
+	## Brightspace
+	## Open Source Ecology
+
+	Physical Products,
+	#EPU,
+	#Holter,
+	#Illustrations
+
+
+
+#clean and prepare images
+	# Very important to consider: size of images, jpg, vs png or svg
+
+	## make a video about interactive mockup of Neuronavigator
+	## Use pictures of sketches
+	## First slide of mine with approach, projects, and story
+	## Link to logs in metaData from projects
+	## Make animated buttons
+
 --------------4-9-2017---------------------
-#Stackable grid for buttons
+Done: Stackable grid for buttons
 
 Done: Change font size of left column
 # Make animated button to point down, and white screen on top of content
@@ -10,12 +34,7 @@ Done: load html with jquery
 
 Done :Create an npm server (this was to use it incase load of html was needed)
 
-#clean and prepare images
-	## make a video about interactive mockup of Neuronavigator
-	## Use pictures of sketches
-	## First slide of mine with approach, projects, and story
-	## Link to logs in metaData from projects
-	## Make animated buttons
+
 
 
 ---------------31-8-2017 W_6--------------------

@@ -32,7 +32,7 @@ a { color: white; text-decoration: none; }
 /*Layout and decoration*/
 .metaProject{
 	position:absolute;
-	bottom:110px;
+	bottom:100px;
 	z-index:5 !important;
 }
 
@@ -65,7 +65,7 @@ a { color: white; text-decoration: none; }
 		rgba(255, 0, 255, 0),
 		rgba(255, 255, 255, 0.99)
 	);
-	height:100px;
+	height:110px;
 	position:fixed;
 	z-index:1 !important;
 	width:100%;
@@ -90,7 +90,7 @@ a { color: white; text-decoration: none; }
 #body1{
 
 	/*padding-left: 5%;*/
-	padding-top:20%;
+	padding-top:10%;
 	padding-left:20%;
 	padding-right:5%;
 
@@ -180,9 +180,6 @@ a{
 }
 
 
-
-
-
 /*Responsive scenarios*/
 @media (max-width: 800px) {
   #sticked {
@@ -228,7 +225,15 @@ a{
 
 	}
 
+}
 
+/*Animations*/
+.hoverMax{
+		background-color: red !important;
+		-webkit-transition: width 2s; /* Safari */
+		transition: width 2s;
 
-
+}
+.hoverMax:hover{
+	background-color:blue !important ;
 }
