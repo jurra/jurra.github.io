@@ -1,55 +1,50 @@
 /*Test area*/
+/*Animated arrow*/
+
+/*@bg: #2d2d37; // Dark blue*/
+/*@primary: #fd6b21; // Orange*/
+
+body { background: @bg;}
+a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/*Layout and decoration*/
 .metaProject{
 	position:absolute;
 	bottom:110px;
 	z-index:5 !important;
 }
 
-/*Decoration*/
-.boxShadow{
- box-shadow: 1px 10px 30px #888888;
-}
-
-@media (max-width: 800px) {
-  #sticked {
-    position: relative !important;
-  }
-	.back2{
-		/*background: url("")!important;*/
-		/*background-color: blue !important;*/
-	}
-	.body1{
-
-		/*background-color: #2ca7df;*/
-		/*background-size: cover;*/
-		right:5% !important;
-		padding-top:5% !important;
-		padding-left:2%!important;
-		/*overflow:scroll,hidden;*/
-		height:100%;
-		padding-right:5%;
-
-	}
-
-	.metaProject{
-		position:relative;
-		bottom:0px;
-	}
-}
-
-@media (max-width: 500px){
-	.ui.button{
-		width:100%;
-		margin:2% !important;
-	}
-}
-
-
-/*Sicked components*/
-
 #sticked{
 	position:fixed;
 	/*z-index:-10;*/
+}
+
+
+/*decoration*/
+.boxShadow{
+ box-shadow: 1px 10px 30px #888888;
 }
 
 #fadeUp{
@@ -78,33 +73,6 @@
 
 }
 
-
-
-/*Font size and padding, white space*/
-a{
-	color:grey !important;
-}
-
- body {
-	color:grey !important;
-	position:;
-	height:20px !important;
-	font-size: 18px !important;
-
-}
-
-#para{
-	font-size: 15px !important;
-}
-
-
-/*Layout and structure*/
-
-img{
-	/*width: auto;*/
-	/*height:700px;*/
-}
-
 .bottom{
 	position:relative;
 	bottom:140px;
@@ -119,18 +87,13 @@ img{
 }
 
 
+#body1{
 
-/*General positioning of text in column 1*/
-.body1{
-	position: auto;
-	/*background-color: #2ca7df;*/
-	/*background-size: cover;*/
-	right:5%;
+	/*padding-left: 5%;*/
 	padding-top:20%;
 	padding-left:20%;
 	padding-right:5%;
-	/*overflow:scroll,hidden;*/
-	/*height:100vh;*/
+
 }
 
 .navButtonRight{
@@ -183,49 +146,89 @@ img{
 
 	background:
 	linear-gradient(to right,
-		rgba(255, 255, 255, 0.5),
+		rgba(255, 255, 255, 0.6),
 		rgba(255, 255, 255, 0.8)
 	),
-    url("img/column22.png");
-		background-repeat: : no-repeat;
+    url("img/column22.jpg");
+		/*background-repeat:;*/
 		background-size:cover;
+
 		/*height: 100%;*/
 		z-index:-10 !important;
 		background-attachment:fixed;
 }
 
-
-
 .column2{
 	height:100vh !important;
 }
 
-/*Animated arrow*/
-
-/*@bg: #2d2d37; // Dark blue*/
-/*@primary: #fd6b21; // Orange*/
-
-body { background: @bg;}
-a { color: white; text-decoration: none; }
-
-.arrow {
-  text-align: center;
-  margin: 8% 0;
-}
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+/*Font size and padding, white space*/
+a{
+	color:grey !important;
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+ body {
+	color:grey !important;
+	position:;
+	height:20px !important;
+	font-size: 18px !important;
+
+}
+
+#para{
+	font-size: 15px !important;
+}
+
+
+
+
+
+/*Responsive scenarios*/
+@media (max-width: 800px) {
+  #sticked {
+    position: relative !important;
   }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+	.back2{
+		/*background: url("")!important;*/
+		/*background-color: blue !important;*/
+	}
+	#body1{
+
+		/*background-color: #2ca7df;*/
+		/*background-size: cover;*/
+		/*right:2% !important;*/
+		padding-top:10% !important;
+		padding-left:5%!important;
+		/*overflow:scroll,hidden;*/
+		height:100%;
+		padding-right:5%;
+
+	}
+
+	.metaProject{
+		position:relative;
+		bottom:0px;
+		margin-bottom:10% !important;
+	}
+}
+
+@media (max-width: 500px){
+	.ui.button{
+		width:100%;
+		margin:2% !important;
+	}
+	#contact{
+		margin:auto;
+		width:120px;
+		/*margin-bottom:10% !important;*/
+	}
+	#sticked{
+		height:100%;
+	}
+
+	}
+
+
+
+
 }
