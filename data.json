@@ -3,6 +3,13 @@
 	"content":
 
 	[
+		{
+			"head1":"National Library of Cuba | 2013",
+			"date":"1930",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. But to retrieve related content with metadata.The styles and graphics have been partially implemented",
+			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
+			"html":"pages/library.html"
+		},
 
 		{	"portfolio":"",
 			"head1":"Documentation with 3D models for the web | 2017",
@@ -13,13 +20,7 @@
 			"logo":"<img class=\"ui tiny image\" src=\"logos/oseG.png\"><div class=\"ui hidden divider\"></div>",
 			"html":"pages/3Dprinter.html"
 		},
-		{
-			"head1":"National Library of Cuba | 2013",
-			"date":"1930",
-			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. But to retrieve related content with metadata.The styles and graphics have been partially implemented",
-			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
-			"html":"pages/library.html"
-		},
+
 
 		{
 			"head1":"Optima | 2012",
