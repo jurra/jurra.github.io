@@ -62,17 +62,17 @@ to{ opacity: 0.6;margin-top:}
 }
 
 .cubicHover{
-	left: 0px;
-	transition:left 0.8s;
-	-webkit-transition: left 0.8s;
-	transition-timing-function: ease-in-out;
-	transform 0.3s;
+	top: 0px;
+	transition:top 0.8s;
+	-webkit-transition: top 0.8s;
+	transition-timing-function: ease;
+	/*transform 0.3s;*/
 }
 
 .cubicHover:hover{
-	left:200px;
-	-webkit-transform: rotate(90deg); /* Safari */
-    transform: rotate(90deg);
+	top:-200px;
+	/*-webkit-transform: rotate(90deg); */
+    /*transform: rotate(90deg);*/
 
 	transition:0.5s;
 
