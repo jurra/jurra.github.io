@@ -11,7 +11,7 @@
 	#Holter,
 	#Illustrations
 
-
+#responsiveness for tablets
 
 #clean and prepare images
 	# Very important to consider: size of images, jpg, vs png or svg

@@ -4,7 +4,13 @@
 
 var i=0;
 
+function initHome(){
+	$("#codeWrapper").load("pages/home.html");
+}
+
 function adsliderInit(index) {
+
+$("#codeWrapper").load("pages/portfolio.html")
 
 $("#head1, #para, #img").removeClass("animated fadeIn");
 	if (index < 0){
@@ -41,7 +47,11 @@ $("#head1, #para, #img").removeClass("animated fadeIn");
 		return i=index;
 	};
 
-adsliderInit(i); //Run from the start (Init)
+
+
+initHome();
+// adsliderInit(i); //Run from the start (Init)
+
 
 
 // Sticky for buttons
