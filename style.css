@@ -1,5 +1,6 @@
 /*Test area*/
 
+
 .introButton{
 	border-style: hidden!important;
 	border-width: thin;
@@ -329,7 +330,10 @@ a{
 
 /*Responsive scenarios*/
 @media (max-width: 800px) {
-  #sticked {
+	#homeCont{
+		left:15%
+	}
+	#sticked {
     position: relative !important;
   }
 	.back2{
