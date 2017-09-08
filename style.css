@@ -62,15 +62,16 @@ to{ opacity: 0.6;margin-top:}
 }
 
 .cubicHover{
-	top: 0px;
-	transition:top 0.8s;
-	-webkit-transition: top 0.8s;
+	padding: 0px;
+	transition: padding 0.8s;
+	-webkit-transition: padding 0.8s;
 	transition-timing-function: ease;
 	/*transform 0.3s;*/
 }
 
 .cubicHover:hover{
-	top:-200px;
+	padding:300px;
+
 	/*-webkit-transform: rotate(90deg); */
     /*transform: rotate(90deg);*/
 
