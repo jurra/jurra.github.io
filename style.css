@@ -1,5 +1,6 @@
 /*Test area*/
 
+
 .introButton{
 	border-style: hidden!important;
 	border-width: thin;
@@ -61,16 +62,17 @@ to{ opacity: 0.6;margin-top:}
 
 }
 
-.cubicHover{
-	top: 0px;
-	transition:top 0.8s;
-	-webkit-transition: top 0.8s;
+.cubicHover {
+	padding: 0px;
+	transition: padding 0.8s;
+	-webkit-transition: padding 0.8s;
 	transition-timing-function: ease;
 	/*transform 0.3s;*/
 }
 
 .cubicHover:hover{
-	top:-200px;
+	padding:300px;
+
 	/*-webkit-transform: rotate(90deg); */
     /*transform: rotate(90deg);*/
 
@@ -328,7 +330,10 @@ a{
 
 /*Responsive scenarios*/
 @media (max-width: 800px) {
-  #sticked {
+	#homeCont{
+		left:15%
+	}
+	#sticked {
     position: relative !important;
   }
 	.back2{
