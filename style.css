@@ -1,7 +1,11 @@
 /*Test area*/
 
+.model{
+	opacity:0.7;
+}
+
 .blueTxt{
-	color:#27aae1;
+	color:#27aae1 !important;
 }
 
 .greenTxt{
