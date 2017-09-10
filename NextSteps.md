@@ -1,7 +1,10 @@
 ------------------------------------------
+#carrousel
 #Project priorities
-	## Home Page
-	## Optima,
+	## Done: Home Page
+	## My story,
+	## My design approach
+	## Done: Optima,
 	## Neuronavigator,
 	## Brightspace
 	## Open Source Ecology
