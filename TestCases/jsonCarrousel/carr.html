@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Shade|Ewert| Bungee|Dancing Script|Amatic SC" >
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+
+	<script type="text/javascript" src="car.js"></script>
+
+	<style media="screen">
+		.student{
+			background-color: transparent !important;
+		}
+
+		#slide{
+			height:100vh !important;
+		}
+	</style>
+
+
+
+	<script type="text/javascript">
+
+	// var html = '';
+	//
+	// $(document).ready(function(){
+	// 	// html += '<div class="ui divider"></div>';
+	// 	$.getJSON('carr.json', function(data){
+	//
+	// 		$.each(data, function(key, value){
+	//
+	// 			$.each(value, function(index,student){
+	//
+				// html += '<div class="student">';
+				// html += '<img class="ui fluid image" src="'+ student.imag +'">';
+				// html += '<h2>' + student.firstname + '</h2>';
+				// html += '<h4>' + student.lastname + '</h4>';
+				// // html += '<div class="ui divider"></div>';
+				// html += '</div>';
+	//
+	//
+	// 			})
+	// 		});
+	// 		$('#students').html(html);
+	//
+	// 		$('#students').cycle({
+	// 			// before:  onBefore,
+	// 			fx: 'scrollLeft',
+	// 			pause:'0',
+	// 			next: '#next',
+	// 			prev: '#prev',
+	// 			speed:'fast',
+	// 			timeout:0,
+	// 			startingSlide: 1
+	// 			// endingSlide:3;
+	// 		})
+	//
+	// 	});
+	// });
+
+	</script>
+
+</head>
+<body>
+
+	<div class="ui centered container">
+		<div class="ui segment">
+
+		<div class="ui grid">
+
+		<div id="slide" class="three column row">
+
+			<div class="three wide left floated column">
+				<button id="next" class="prev ui huge button" type="button" name="button">Previous</button>
+			</div>
+				<div id="students" class="active column"></div>
+			<div class="three wide right floated column">
+				<button id="prev"class="next ui button" type="button" name="button">Next</button>
+			</div>
+		</div>
+
+
+
+
+	</div>
+	</div>
+	</div>
+
+
+</body>
+</html>
