@@ -1,18 +1,24 @@
 ------------------------------------------
 #carrousel
 #Project priorities
-	## Done: Home Page
+	## Done: Home Page // Idea use the template of semantic UI and adapt it
 	## My story,
-	## My design approach
+	## Done: My design approach
 	## Done: Optima,
 	## Neuronavigator,
 	## Brightspace
 	## Open Source Ecology
 
-	Physical Products,
+	Physical Products, // Industrial Design
 	#EPU,
 	#Holter,
 	#Illustrations
+
+	Illustrations, //
+	## Artistic Illustrations (carrousel with drawings)
+		Find how to do a scale to fit
+	##
+
 
 #responsiveness for tablets
 
