@@ -6,7 +6,7 @@
 		{
 			"head1":"National Library of Cuba | 2013",
 			"date":"1930",
-			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. The idea is also to retrieve  content related to the main topic being presented.The styles and graphics have been partially implemented",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. But to retrieve related content with metadata.The styles and graphics have been partially implemented",
 			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
 			"html":"pages/library.html"
 		},
@@ -33,11 +33,11 @@
 
 
 		{
-			"head1":"Neurosurgery software",
+			"head1":"Neuronavigation software",
 			"date":"",
 			"role":"",
 			"para":
-			"This assignment came from the R&D department of CNEURO. A biologist and neurosurgeon were working with the MATLAB toolbox to assist neurosurgeons in planning surgeries, but also in navigating during the operation.<br><br> My role was to develop and integrated interaction design, of a new software for neurosurgery. Part of the core activities of this project was to do research on the domain of neurosurgery and neuroimaging, I also had to go to a surgery and analyze the context, as well as to MRI scan sessions.",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
 			"html":"pages/neuroNav.html",
 			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">"
 
@@ -49,6 +49,16 @@
 			"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
 			"html": "pages/heartTransport.html"
+		},
+		{
+			"head1":"Integrated work desk",
+			"date":"",
+			"role":"",
+			"para":
+			"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><br> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>",
+			"img":"",
+			"html":"pages/homeWorkplace.html"
+
 		}
 
 	]
