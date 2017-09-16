@@ -14,84 +14,34 @@
 
 	<script type="text/javascript" src="car.js"></script>
 
-	<style media="screen">
-		.student{
-			background-color: transparent !important;
-		}
-
-		#slide{
-			height:100vh !important;
-		}
-	</style>
-
-
-
-	<script type="text/javascript">
-
-	// var html = '';
-	//
-	// $(document).ready(function(){
-	// 	// html += '<div class="ui divider"></div>';
-	// 	$.getJSON('carr.json', function(data){
-	//
-	// 		$.each(data, function(key, value){
-	//
-	// 			$.each(value, function(index,student){
-	//
-				// html += '<div class="student">';
-				// html += '<img class="ui fluid image" src="'+ student.imag +'">';
-				// html += '<h2>' + student.firstname + '</h2>';
-				// html += '<h4>' + student.lastname + '</h4>';
-				// // html += '<div class="ui divider"></div>';
-				// html += '</div>';
-	//
-	//
-	// 			})
-	// 		});
-	// 		$('#students').html(html);
-	//
-	// 		$('#students').cycle({
-	// 			// before:  onBefore,
-	// 			fx: 'scrollLeft',
-	// 			pause:'0',
-	// 			next: '#next',
-	// 			prev: '#prev',
-	// 			speed:'fast',
-	// 			timeout:0,
-	// 			startingSlide: 1
-	// 			// endingSlide:3;
-	// 		})
-	//
-	// 	});
-	// });
-
-	</script>
 
 </head>
+
+
 <body>
+	<div class="ui container">
 
-	<div class="ui centered container">
-		<div class="ui segment">
-
-		<div class="ui grid">
-
-		<div id="slide" class="three column row">
-
-			<div class="three wide left floated column">
-				<button id="next" class="prev ui huge button" type="button" name="button">Previous</button>
-			</div>
-				<div id="students" class="active column"></div>
-			<div class="three wide right floated column">
-				<button id="prev"class="next ui button" type="button" name="button">Next</button>
+	<div class=" two column stackable padded ui grid">
+		<div class="six wide column">
+			<!-- <div class="ui hidden divider">	</div> -->
+			<div class="ui segment">
+				<h1>In this Page we are loading external content to wee how it behaves</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
+		<div class="ten wide column">
+			<div id="target">
 
-
-
-
+			</div>
+		</div>
 	</div>
-	</div>
-	</div>
+</div>
+
+	<script type="text/javascript">
+	$('#target').load('carrPage.html');
+	// carr('/jurra.github.io/neuro.json','images');
+	</script>
+	<script type="text/javascript" scr="car.js"></script>
 
 
 </body>
