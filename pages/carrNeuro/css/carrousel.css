@@ -1,0 +1,35 @@
+/*.img_cnt{
+	height:900px!important;
+};*/
+
+.student{
+	background-color: transparent !important;
+}
+
+.textWrapper{
+	background-color: rgba(255,255,0,0.5);
+	position: absolute;
+	bottom:0;
+	padding:5%;
+}
+
+
+.car_bk{
+	background-color: transparent;
+}
+
+.button_ctn{
+	position:relative;
+	top:50vh;
+	left:16px;
+	z-index:10;
+	/*padding:15%;*/
+
+}
+
+@media screen (max-width: 768px) {
+    .textWrapper {
+        position:relative;
+				margin:10%;
+    }
+}

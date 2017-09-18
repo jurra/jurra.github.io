@@ -64,19 +64,3 @@ function scrollDown(target){
 			scrollTop: $(target).offset().top},
 			'slow');
 	}
-
-
-	// function scrollDown(target){
-	// 	$("button").click(function() {
-	// 		$('html,body').animate({
-	// 			scrollTop: $(target).offset().top},
-	// 			'slow');
-	// 		});
-	// 	}
-
-$('.slider').glide({
-  autoplay: false,
-  arrowsWrapperClass: 'slider-arrows',
-  arrowRightText: '',
-  arrowLeftText: ''
-});
