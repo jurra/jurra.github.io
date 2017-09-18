@@ -6,7 +6,7 @@
 		{
 			"head1":"National Library of Cuba | 2013",
 			"date":"1930",
-			"para":"This project was carried out as an integrated proposal for the Cuban National Library. It was a volunteer project. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. I put a main focus on intuitive navigation and search, through the different collections. The main proposal was to provide a set of different filtering operations combined with navigation. The idea is also to retrieve  content related to the main topic being presented.The styles and graphics have been partially implemented",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation. The styles and graphics have been partially implemented",
 			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
 			"html":"pages/library.html"
 		},
@@ -15,7 +15,7 @@
 			"head1":"Documentation with 3D models for the web | 2017",
 			"date":" 2012",
 			"role":"",
-			"para":"This is a threedimensional infographic to share the novelties of this new 3D printer design<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"para":"This is a threedimensional infographic of a 3D printer designed by Open Source Ecology. Click and interact through the number labels.<br><br>It is a documentation of the main features and technical novelties of this model. The aim is to engage people to replicate this machine. This project is part of a major goal in Open Source Ecology to document and share models through the web.",
 			"img":"",
 			"logo":"<img class=\"ui tiny image\" src=\"logos/oseG.png\"><div class=\"ui hidden divider\"></div>",
 			"html":"pages/3Dprinter.html"
@@ -43,10 +43,10 @@
 
 		},
 
-		{"head1":"Heart transporter",
+		{"head1":"Heart transporter | 2010",
 			"date":"",
 			"role":"",
-			"para":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of hear transporter. This typology of device uses perfusion of blood and nutrients. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
 			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
 			"html": "pages/heartTransport.html"
 		}
