@@ -1,0 +1,50 @@
+/*.img_cnt{
+	height:900px!important;
+};*/
+
+.ui.button[class*="right floated"], .ui.buttons[class*="right floated"] {
+	float: right;
+	margin-right: 1.5em;
+	margin-left: .25em;
+}
+
+.ui.button, .prev, .next{
+	box-shadow: 0px 0px 25px black;
+}
+
+.item{
+	background-color: transparent !important;
+}
+
+.textWrapper{
+	background-color: rgba(0,0,0,0.89);
+	position: absolute !important;
+	bottom:0;
+	padding:0%;
+
+}
+.textWrapper > p{
+	/*background-color:black !important;*/
+	padding:3%;
+}
+
+.car_bk{
+	background-color: transparent;
+}
+
+.button_ctn{
+	position:relative;
+	top:50vh;
+	left:16px;
+
+	z-index:10;
+	/*padding:15%;*/
+
+}
+
+@media screen (max-width: 768px) {
+    .textWrapper {
+        position:relative;
+				margin:10%;
+    }
+}

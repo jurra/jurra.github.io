@@ -1,0 +1,28 @@
+	<link rel="stylesheet" href="carrousel.css">
+
+	<div class="">
+		<!-- Fixed Position of buttons -->
+		<div class="button_ctn">
+		<div class="row">
+		<div class="prev ui circular icon huge button left floated ">
+			<i class="ui  left chevron icon"></i>
+		</div>
+		<div class="next circular huge button ui icon right floated">
+			<i class="ui  right chevron icon"></i>
+		</div>
+	</div>
+	</div>
+
+<!-- Wrapper of json feed -->
+		<div id="items" class="ui container grid">
+		</div>
+	</div>
+
+<!-- Passive Code -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+
+<!-- Active Code -->
+<script type="text/javascript" src="car.js"></script>
+<script>
+carr('images/carr.json','images');
+</script>
