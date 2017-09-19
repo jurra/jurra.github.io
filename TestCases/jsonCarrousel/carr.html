@@ -1,48 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
+	<!-- <link rel="stylesheet" href="css/carrousel.css"> -->
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Shade|Ewert| Bungee|Dancing Script|Amatic SC" >
-
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
-
-	<script type="text/javascript" src="car.js"></script>
-
-
-</head>
-
-
-<body>
-	<div class="ui container">
-
-	<div class=" two column stackable padded ui grid">
-		<div class="six wide column">
-			<!-- <div class="ui hidden divider">	</div> -->
-			<div class="ui segment">
-				<h1>In this Page we are loading external content to wee how it behaves</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+	<div class="">
+		<!-- Fixed Position of buttons -->
+		<div class="button_ctn">
+		<div class="row">
+		<div class="prev ui circular icon huge button left floated ">
+			<i class="ui  left chevron icon"></i>
 		</div>
-		<div class="ten wide column">
-			<div id="target">
-
-			</div>
+		<div class="next circular huge button ui icon right floated">
+			<i class="ui  right chevron icon"></i>
 		</div>
 	</div>
-</div>
+	</div>
 
-	<script type="text/javascript">
-	$('#target').load('carrPage.html');
-	// carr('/jurra.github.io/neuro.json','images');
-	</script>
-	<script type="text/javascript" scr="car.js"></script>
+<!-- Wrapper of json feed -->
+		<div id="items" class="ui container grid">
+		</div>
+	</div>
 
+<!-- Passive Code -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
 
-</body>
-</html>
+<!-- Active Code -->
+<script type="text/javascript" src="js/car.js"></script>
+<script>
+$(document).ready(function(){
+	carr('carr.json','images');
+})
+
+</script>

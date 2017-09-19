@@ -316,11 +316,12 @@ a { color: white; text-decoration: none; }
 	linear-gradient(to right,
 		rgba(255, 255, 255, 0.6),
 		rgba(255, 255, 255, 0.8)
-	),
-    url("img/column22.jpg");
+	)
+    /*url("img/column22.jpg");*/
 		/*background-repeat:;*/
-		background-size:cover;
+		/*background-size:cover;*/
 
+		;
 		/*height: 100%;*/
 		z-index:-10 !important;
 		background-attachment:fixed;
