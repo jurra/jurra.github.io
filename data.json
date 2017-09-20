@@ -6,7 +6,7 @@
 		{
 			"head1":"National Library of Cuba | 2013",
 			"date":"1930",
-			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation. The styles and graphics have been partially implemented",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation.",
 			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
 			"html":"pages/library.html"
 		},
@@ -26,7 +26,7 @@
 			"head1":"Optima | 2012",
 			"date":"2030",
 			"role":"",
-			"para":"Optima is android app. It was developed in the Cuban Neuroscience Center to assist National healthcare systems in the screening of learning disorders.This includes  Dyslexia, hearing problems, learning diseases and their possible causes.<br><br>My role was to analyze the task flows and design an App that captures the activity structure. It includes navigation through databases of registered child's, introducing new child's in the system, coordination with the monitoring web application, as well as selection and running of tests. ",
+			"para":"Optima is android app. It was developed in the Cuban Neuroscience Center to assist National healthcare systems in the screening of learning disorders.This includes identifying Dyslexia, hearing , learning disorders, to monitor these children.<br><br>My role was to analyze the task flows and design an App that captures the activity structure. It includes navigation through databases of registered child's, introducing new child's in the system, coordination with the monitoring web application, as well as selection and running of tests. ",
 			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">",
 			"html":"pages/optima.html"
 		},
@@ -37,7 +37,7 @@
 			"date":"",
 			"role":"",
 			"para":
-			"This assignment came from the R&D department of CNEURO. A biologist and neurosurgeon were working with the MATLAB toolbox to assist neurosurgeons in planning surgeries, but also in navigating during the operation.<br><br> My role was to develop and integrated interaction design, of a new software for neurosurgery. Part of the core activities of this project was to do research on the domain of neurosurgery and neuroimaging, I also had to go to a surgery and analyze the context, as well as to MRI scan sessions.",
+			"This assignment came from the R&D department of CNEURO. A biologist and neurosurgeon were working with the MATLAB toolbox to assist neurosurgeons in planning surgeries, but also in navigating during the operations.<br><br> My role was to develop UI proposals of a new software for neurosurgery. Part of the core activities of this project involved studying the domain of neurosurgery and neuroimaging to get insights on the workflows. I had to go to a surgery and analyze the context, as well as to MRI scan sessions.",
 			"html":"pages/neuroNav.html",
 			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">"
 
@@ -46,7 +46,7 @@
 		{"head1":"Heart transporter | 2010",
 			"date":"",
 			"role":"",
-			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of hear transporter. This typology of device uses perfusion of blood and nutrients. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
 			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
 			"html": "pages/heartTransport.html"
 		}
