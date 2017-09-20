@@ -87,21 +87,22 @@ function scrollDown(target){
 
 				})
 			});
-			$('#items').html(html);
 
-			$('#items').cycle({
-				// before:  onBefore,
-				fx: 'scrollHorz',
-				// nowrap:'1',
-				next: '.next',
-				prev: '.prev',
-				// speed:'slow',
-				timeout:0
-				// startingSlide: 1
-				// endingSlide:3;
-			})
+			$('#items').html(html);
 
 		});
 	});
 
 	}
+
+	$('#items').cycle({
+		// before:  onBefore,
+		fx: 'fade',
+		// nowrap:'1',
+		next: '.next',
+		prev: '.prev',
+		speed:'slow',
+		timeout:0
+		// startingSlide: 1
+		// endingSlide:3;
+	})
