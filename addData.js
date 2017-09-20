@@ -92,10 +92,10 @@ function scrollDown(target){
 			$('#items').cycle({
 				// before:  onBefore,
 				fx: 'scrollHorz',
-				nowrap:'1',
+				// nowrap:'1',
 				next: '.next',
 				prev: '.prev',
-				speed:'slow',
+				// speed:'slow',
 				timeout:0
 				// startingSlide: 1
 				// endingSlide:3;
