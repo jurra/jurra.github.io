@@ -8,9 +8,11 @@ function initHome(){
 	$("#codeWrapper").load("pages/home.html");
 }
 
-function adsliderInit(index) {
+function initPortfolio(){
+	$("#codeWrapper").load("pages/portfolio.html");
+}
 
-	$("#codeWrapper").load("pages/portfolio.html")
+function adsliderInit(index) {
 
 	$("#head1, #para, #img").removeClass("animated fadeIn");
 	if (index < 0){
