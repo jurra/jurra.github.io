@@ -1,0 +1,23 @@
+{
+	"items":{
+		"0":{
+			"id":"104",
+			"firstname":"",
+			"lastname":"Doe",
+			"img":"01.png"
+		},
+		"1":{
+			"id":"102",
+			"firstname":"1, 2, 3, and 4, are the main ui components of the website. 1 is and advanced search, 2 stands for contextual navigation, 3 is the body and 4 the footer. Read more below about the concept.",
+			"lastname":"Doe",
+			"img":"02.png"
+		},
+
+		"2":{
+			"id":"102",
+			"firstname":"1, represents a contextual search. This type of search invites the user to retrieve information related to this collection. 2 is a collection of dynamically load info related to this collection.",
+			"lastname":"Jose",
+			"img":"03.png"
+		}
+	}
+}
