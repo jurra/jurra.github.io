@@ -1,0 +1,41 @@
+{
+	"items":{
+		"0":{
+			"id":"104",
+			"firstname":"This an implemented concept for the student landing page in Brightspace.It has a dynamic feed, in the two thirds of the page, and static content at the navbar and the right. The concept is to center to capture attention on things that are not under the radar of students but are important",
+			"lastname":"Doe",
+			"img":"01.png"
+		},
+		"1":{
+			"id":"102",
+			"firstname":"This is an example of a widget design for courses. I made the design quick in codepen to share it and discuss it with the team.",
+			"lastname":"Doe",
+			"img":"02.png"
+		},
+
+		"2":{
+			"id":"102",
+			"firstname":"This is a custom application to be integrated in the LMS. At the back it was the version I recieved. The proposal on the front is simpler and more intuitive design. I did it with semantic ui",
+			"lastname":"Jose",
+			"img":"03.png"
+		},
+		"3":{
+			"id":"102",
+			"firstname":"This was a design workshop with users introduce their feedback in a structured way, also to guarantee consistency with the limitations of the LMS. Questions and user stories were gathered as a result of these interactions.",
+			"lastname":"Jose",
+			"img":"04.png"
+		},
+		"4":{
+			"id":"102",
+			"firstname":"This was a subproject, where a support website was implemented in wordpress. As part of this assignment I designed graphic and UX concepts, I also implemented them in wordpress.",
+			"lastname":"Jose",
+			"img":"05.png"
+		},
+		"5":{
+			"id":"102",
+			"firstname":"These are early screen concepts for the first phase where some use cases were captured. I focused here in wireframing and scoping the main ui components, based on the core activities of the university.",
+			"lastname":"Jose",
+			"img":"06.png"
+		}
+	}
+}
