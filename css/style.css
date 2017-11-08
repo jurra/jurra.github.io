@@ -330,8 +330,8 @@ a { color: white; text-decoration: none; }
 }
 
 /*Font size and padding, white space*/
-a{
-	color:grey !important;
+a > .link {
+    color: grey !important;
 }
 
  body {
