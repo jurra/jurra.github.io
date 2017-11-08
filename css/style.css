@@ -329,9 +329,9 @@ a { color: white; text-decoration: none; }
 	height:100vh !important;
 }
 
-/*Font size and padding, white space*/
-a{
-	color:grey !important;
+
+a > .link {
+    color: grey !important;
 }
 
  body {
