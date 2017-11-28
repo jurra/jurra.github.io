@@ -69,10 +69,13 @@ function scrollDown(target){
 
 	function carr(dataPath, imgPath){
 
-	var html = '';
+	var html ='' ;
+
+	$('#carr_init').html('<div class="button_ctn"><div class=""> <div class="prev ui circular icon huge button left floated"><i class="ui left chevron icon"></i></div><div class="next circular huge button ui icon right floated"><i class="ui right chevron icon"></i></div></div></div><div id="items" class="ui container"></div><div class="ui hidden divider"></div><div class="ui divider"></div>');
 
 	$(document).ready(function(){
 		// html += '<div class="ui divider"></div>';
+
 		$.getJSON(dataPath, function(data){
 
 			$.each(data, function(key, value){
