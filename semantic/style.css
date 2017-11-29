@@ -88,9 +88,27 @@
     padding: 10px;
 }
 
+/*Grid UI components*/
+
+#body1{
+
+	padding-top:10% !important;
+	padding-left:5%!important;
+	height:100%;
+	padding-right:5%;
+
+}
 
 
-/* Background header*/
+.back1{
+	height:100vh;
+	background:
+  url("");
+	background-repeat: : no-repeat;
+	background-size:cover;
+	padding-bottom:-10px !important;
+	position: fixed;
+}
 
 header h1 :: after{
 	background-color: #dd3b2a;
@@ -702,6 +720,11 @@ aside .wrapper .zen-resources {
 }
 @media (max-width: 1040px) {
 
+/*Grid System*/
+
+
+
+/**/
 	.hand {
 		background: url('hand-v.png') center top no-repeat;
 		background-size: 63%;
@@ -813,6 +836,10 @@ aside .wrapper .zen-resources {
 	Centered header of the text
 
 */
+
+.back1{
+	position:relative;
+}
 
 .hand {
 	background: url('hand-v.png') center top no-repeat;
