@@ -8,14 +8,18 @@
 			"date":"2017",
 			"para":"I started in this big project, as a UX designer. The aim of this project was to switch from the previous LMS system(Blackboard) to Brigthspace. In this project I performed different design tasks which included performing deep analysis of workflows and context understanding.<br><br> Furthermore I designed solutions coherent with the working principles and structure of the new system. I developed solutions for different users(student and teachers) and use cases. I also worked on customization tasks that included designing and developing widgets.",
 			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
-			"html":"pages/BSpace.html"
+			"html":"pages/BSpace.html",
+			"carr1": "pages/carrBS/carr.json",
+			"carr2":"pages/carrBS/images"
 		},
 		{
 			"head1":"National Library of Cuba | 2013",
 			"date":"1930",
 			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation.",
 			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
-			"html":"pages/library.html"
+			"html":"pages/library.html",
+			"carr1": "pages/carrLib/carr.json",
+			"carr2":"pages/carrLib/images"
 		},
 
 		{	"portfolio":"",

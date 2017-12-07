@@ -22,3 +22,10 @@
 //buttons
 @defaultBorderRadius:0px;
 // @absoluteBorderRadius : @1px;
+
+
+//Mobile Breakpoints
+@mobileBreakpoint            : 1000px;
+@tabletBreakpoint            : 1000px;
+@computerBreakpoint          : 1000px;
+@largeMonitorBreakpoint      : 1000px;

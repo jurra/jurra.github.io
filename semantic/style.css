@@ -107,7 +107,7 @@
 	background-repeat: : no-repeat;
 	background-size:cover;
 	padding-bottom:-10px !important;
-	position: fixed;
+	position: fixed !important;
 }
 
 header h1 :: after{
@@ -828,7 +828,10 @@ aside .wrapper .zen-resources {
 
 
 
-@media (max-width: 800px) { /*This is tablet portrait*/
+@media (max-width: 1000px) { /*This is tablet portrait*/
+	.back1{
+		position: relative !important;
+	}
 
 /*
   User @media
@@ -837,9 +840,6 @@ aside .wrapper .zen-resources {
 
 */
 
-.back1{
-	position:relative;
-}
 
 .hand {
 	background: url('hand-v.png') center top no-repeat;

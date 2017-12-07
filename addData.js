@@ -10,22 +10,19 @@ function initPortfolio(){
 
 function carr(dataPath, imgPath){
 	var html1 ='' ;
-	$('#carr_init').html('<div class="button_ctn"><div class=""> <div class="prev ui circular icon huge button left floated"><i class="ui left chevron icon"></i></div><div class="next circular huge button ui icon right floated"><i class="ui right chevron icon"></i></div></div></div><div id="items" class="ui container"></div><div class="ui hidden divider"></div><div class="ui divider"></div>');
 
 	$(document).ready(function(){
+
+		$('#carr_init').html('<div class="button_ctn"><div class=""> <div class="prev ui circular icon huge red button left floated"><i class="ui left chevron icon"></i></div><div class="next circular huge red button ui icon right floated"><i class="ui right chevron icon"></i></div></div></div><div id="items" class="ui container"></div><div class="ui hidden divider"></div><div class="ui divider"></div>');
+
+
 		// html += '<div class="ui divider"></div>';
 		$.getJSON(dataPath, function(data){
 			$.each(data, function(key, value){
 				$.each(value, function(index,item){
-
-					/*
-						- classes could be added not here but below, here the classes should be stated for the mobile scenario
-						- Create a class for the text itself with the border below solid style plus some margin, padding etc...(Do this  in the inspector)
-					*/
-
 					html1 += '<div class="row student">';
 					html1 += '<img class ="ui fluid image" src="'+ imgPath +'/'+ item.img +'">';
-					html1 += '<div class="row textWrapper">';
+					html1 += '<div class="row textWrapper change">';
 					html1 += '<p>'+ item.firstname +'</p>';
 					html1 +='</div></div>';
 				})
@@ -37,6 +34,7 @@ function carr(dataPath, imgPath){
 			// Put conditional here for loading the cycle script
 
 			if (widthQuery){
+				$('.button_ctn').show();
 				$('#items').cycle({
 					// before:  onBefore,
 					fx: 'fade',
@@ -48,7 +46,12 @@ function carr(dataPath, imgPath){
 					// startingSlide: 1
 					// endingSlide:3;
 				})
-			};
+			}
+
+			else if(!widthQuery){
+				$('.button_ctn').hide();
+				$('.change').removeClass('textWrapper').addClass('carText');
+			}
 
 
 		});
@@ -79,12 +82,7 @@ function adsliderInit(index) {
 		document.getElementById("para").innerHTML = storeObj.para;
 		document.getElementById("metaD").innerHTML= storeObj.logo;
 		$("#img").load(storeObj.html);
-		carr(storeObj.carr1,storeObj.carr2)
-
-    //
-		// else{
-		// 	$("#img").load(storeObj.html);
-		// }
+		// carr(storeObj.carr1,storeObj.carr2);
 	});
 
 	return i=index;
