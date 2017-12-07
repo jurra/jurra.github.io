@@ -1,6 +1,21 @@
+#items{
+	height: 10px !important;
+}
+
+
 /*.img_cnt{
 	height:900px!important;
 };*/
+
+
+.carText{
+	border-bottom-color: #dd3c29;
+	padding-top: 10px;
+	padding-bottom: 70px;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+
+}
 
 .ui.button[class*="right floated"], .ui.buttons[class*="right floated"] {
 	float: right;
@@ -17,14 +32,14 @@
 }
 
 .textWrapper{
-	background-color: rgba(0,0,0,0.89);
+	background-color: rgba(0, 55, 79, 0.89);
 	position: absolute !important;
 	bottom:0;
 	padding:0%;
 
 }
 .textWrapper > p{
-	/*background-color:black !important;*/
+	color: #9adbf7;
 	padding:3%;
 }
 
