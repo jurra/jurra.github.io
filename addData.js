@@ -62,7 +62,7 @@ function carr(dataPath, imgPath){
 
 function adsliderInit(index) {
 
-	$("#head1, #para, #img").removeClass("animated fadeIn");
+	// $("#head1, #para, #img").removeClass("animated fadeIn");
 	if (index < 0){
 
 		history.go(0);
@@ -75,7 +75,7 @@ function adsliderInit(index) {
 
 	$.getJSON("data.json", function(object) {
 		// Jquery animations, add classes first
-		$("#head1, #para, #img").addClass("animated fadeIn");
+		// $("#head1, #para, #img").addClass("animated fadeIn");
 		var storeObj = object.content[index];
 		//Populate with data different areas
 		document.getElementById("head1").innerHTML = storeObj.head1;
