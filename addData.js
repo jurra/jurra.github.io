@@ -80,7 +80,7 @@ function adsliderInit(index) {
 		//Populate with data different areas
 		document.getElementById("head1").innerHTML = storeObj.head1;
 		document.getElementById("para").innerHTML = storeObj.para;
-		document.getElementById("metaD").innerHTML= storeObj.logo;
+		// document.getElementById("metaD").innerHTML= storeObj.logo;
 		$("#img").load(storeObj.html);
 		// carr(storeObj.carr1,storeObj.carr2);
 	});
@@ -93,11 +93,11 @@ initHome();
 // adsliderInit(i); //Run from the start (Init)
 
 // Sticky for buttons
-$('.ui.sticky')
-.sticky({
-	context: '#column2'
-})
-;
+// $('.ui.sticky')
+// .sticky({
+// 	context: '#column2'
+// })
+// ;
 
 // Scroll function
 function scrollDown(target){
