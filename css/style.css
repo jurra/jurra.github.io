@@ -338,11 +338,11 @@ a > .link {
 	color:grey !important;
 	position:;
 	height:20px !important;
-	font-size: 18px !important;
+	font-size: 18px;
 
 }
 
-#para{
+.para{
 	font-size: 15px !important;
 }
 

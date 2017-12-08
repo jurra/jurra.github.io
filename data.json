@@ -4,8 +4,8 @@
 
 	[
 		{
-			"head1":"New LMS integration| 2016-17",
-			"date":"2017",
+			"head1":"New LMS integration",
+			"date":"2016-2017",
 			"para":"I started in this big project, as a UX designer. The aim of this project was to switch from the previous LMS system(Blackboard) to Brigthspace. In this project I performed different design tasks which included performing deep analysis of workflows and context understanding.<br><br> Furthermore I designed solutions coherent with the working principles and structure of the new system. I developed solutions for different users(student and teachers) and use cases. I also worked on customization tasks that included designing and developing widgets.",
 			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
 			"html":"pages/BSpace.html",
@@ -13,8 +13,8 @@
 			"carr2":"pages/carrBS/images"
 		},
 		{
-			"head1":"National Library of Cuba | 2013",
-			"date":"1930",
+			"head1":"National Library of Cuba",
+			"date":"2013",
 			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation.",
 			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
 			"html":"pages/library.html",
@@ -23,8 +23,8 @@
 		},
 
 		{	"portfolio":"",
-			"head1":"Documentation with 3D models for the web | 2017",
-			"date":" 2012",
+			"head1":"Documentation with 3D models for the web",
+			"date":" 2017",
 			"role":"",
 			"para":"This is a threedimensional infographic of a 3D printer designed by Open Source Ecology. Click and interact through the number labels.<br><br>It is a documentation of the main features and technical novelties of this model. The aim is to engage people to replicate this machine. This project is part of a major goal in Open Source Ecology to document and share models through the web.",
 			"img":"",
@@ -34,8 +34,8 @@
 
 
 		{
-			"head1":"Optima | 2012",
-			"date":"2030",
+			"head1":"Optima",
+			"date":"2012",
 			"role":"",
 			"para":"Optima is android app. It was developed in the Cuban Neuroscience Center to assist National healthcare systems in the screening of learning disorders.This includes identifying Dyslexia, hearing , learning disorders, to monitor these children.<br><br>My role was to analyze the task flows and design an App that captures the activity structure. It includes navigation through databases of registered child's, introducing new child's in the system, coordination with the monitoring web application, as well as selection and running of tests. ",
 			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">",
@@ -44,8 +44,8 @@
 
 
 		{
-			"head1":"Neurosurgery software | 2013",
-			"date":"",
+			"head1":"Neurosurgery software",
+			"date":"2013",
 			"role":"",
 			"para":
 			"This assignment came from the R&D department of CNEURO. A biologist and neurosurgeon were working with the MATLAB toolbox to assist neurosurgeons in planning surgeries, but also in navigating during the operations.<br><br> My role was to develop UI proposals of a new software for neurosurgery. Part of the core activities of this project involved studying the domain of neurosurgery and neuroimaging to get insights on the workflows. I had to go to a surgery and analyze the context, as well as to MRI scan sessions.",
@@ -54,12 +54,20 @@
 
 		},
 
-		{"head1":"Heart transporter | 2010",
-			"date":"",
+		{"head1":"Heart transporter",
+			"date":"2010",
 			"role":"",
 			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
 			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
 			"html": "pages/heartTransport.html"
+		},
+
+		{"head1":"Work place table",
+			"date":"2013",
+			"role":"",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
+			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
+			"html": "pages/CWorkTable"
 		}
 
 	]
