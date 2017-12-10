@@ -14,13 +14,13 @@
 					<div class="eight wide right floated left aligned column">
 						<div class="spacer"></div>
 						<div class="spacer"></div>
-						<div class="summary-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						<div class="summary-font">I do interaction design beyond user centeredness. Designing for human interaction is also about influencing social relations through technology to achieve something. I love to learn from others, explore and experiment. <span class="text-red" style="font-style:italic">This portfolio is also an experiment! I coded it from scratch and shared it on github.</span></div>
 						<div class="spacer"></div>
 						<!-- <div class="spacer"></div> -->
 						<div class="ui center aligned header" style="">
-							<div class="ui huge red  button"> Work
+							<div class="ui huge red  button" onclick="scrollDown('#t1')"> Work
 							</div>
-							<div class="ui huge  red button" style="margin-top:20px"> Design Approach
+							<div class="ui huge  red button" style="margin-top:20px" onclick="scrollDown('#t2')"> Design Approach
 							</div>
 							<a href="./semantic/CV_JoseUrra_01.pdf" target="_blank"><div class="ui huge  red button" style="margin-top:20px"> CV
 							</div></a>
@@ -60,11 +60,12 @@
 					<div class="blur"></div>
 					<div class="" style="height:60px"></div>
 					<div class="ui container">
-						<div class="ui two column stackable grid">
+						<div  id="t1" class="ui two column stackable grid">
 							<div class="row" style="margin-bottom:-35px!important">
 								<div class="four wide column"></div>
 								<div class="ten wide column">
 									<h2 class="ui red header"> Work</h2>
+									<div class="text-red" style="font-style:italic">Every design project has a bit of strategy, good taste, technology and even religion, I run the risk of simplifying my work with these bold categories to gain in clearness</div>
 								</div>
 							</div>
 							<!-- Strategic Product Design  -->
@@ -76,13 +77,13 @@
 									<div class="row">
 										<div class="ui hidden divider">
 										</div>
-										<h3 class="e">Strategic Product Design
+										<h3 class="">Strategic Product Design
 											<span class="ui huge floated right red button">
 												coming soon
 											</span>
 										</h3>
 									</div>
-									<p class=""><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p class=""><br>Most common deliverables I end up with in these projects are opportunities and vision documentation using roadmaps, value propositions, and business model canvases within the framework of lean startup. These results are always grounded on in depth research related to the domain of the project.</p>
 									<p></p>
 									<div class="ui hidden massive divider"></div>
 								</div>
@@ -105,7 +106,7 @@
 											</span>
 										</h3>
 									</div>
-									<p class=""><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p class=""><br>When designing for digital experiences I first map and model the most relevant interactions and workflows, ending up with critical user stories. I also profile customers/users segments using personas. The most materialized deliverables in this context are visually documented user stories, backed up by tests and evaluations, ready to enter the development pipeline.</p>
 									<p></p>
 									<div class="ui hidden massive divider"></div>
 								</div>
@@ -122,13 +123,13 @@
 									<div class="row">
 										<div class="ui hidden divider">
 										</div>
-										<h3 class="e">UX for Physical Products
+										<h3 class="e">Industrial Design
 											<span class="ui huge floated right red button" onclick="initPortfolio();adsliderInit(5);">
 												more coming soon
 											</span>
 										</h3>
 									</div>
-									<p class=""><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p class=""><br>I think of Industrial Design as UX  for physical products.Human centeredness is the dominant element also for this projects grounded by feasibility. Although deliverables change(CAD models, prototypes, simulations, calculations, usability tests), the approach in my experience remains very similar as when designing for digital contexts.</p>
 									<p></p>
 									<div class="ui hidden massive divider"></div>
 								</div>
@@ -151,9 +152,12 @@
 											</span>
 										</h3>
 									</div>
-									<p class=""><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p class=""><br>This is the most “artistic” work I do, including graphic design, illustration and also 3D modeling. The major focus of these projects has been on making products that look and feel good, but also engage in delivering emotional impact. Every project has a little bit of this, but these collection is all about it.</p>
 									<p></p>
 									<div class="ui hidden massive divider"></div>
+									<div class="ui hidden massive divider"></div>
+									<div class="ui hidden massive divider"></div>
+
 								</div>
 							</div>
 						</div>
@@ -167,13 +171,19 @@
 				<!-- Inverted view -->
 				<div class="red-border dark" style="">
 					<div class="ui hidden divider"></div>
-					<div class="ui container">
+					<div class="ui text container">
 						<div class="ui hidden divider"></div>
-						<h2 class="ui header red">Design approach</h2>
-						<h3 class="ui header red">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
-						<div class="ui two column stackable grid">
+						<h2 class="ui centered header red">Design approach</h2>
+						<!-- <p class="text-red summary-font">There are three frameworks I use combine dynamically in the projects: the Activity Centered Design suite by Larry Constantine and the suite of tools from Alexander Osterwalder and Yves Pigneur for value proposition design and business models. The last one is the agile product development approach, like SCRUM, which focus more on how make things efficiently.</p> -->
+					</div>
+						<div class="">
+							<div id="t2" class="ui hidden divider"></div>
+							<div class="ui hidden divider"></div>
+
+							<img class="" src="img/infographic.png" alt="" style="display: block; margin-left: auto; margin-right: auto;width:90%;">
+
 							<!-- Activity Centered Design -->
-							<div class="row">
+							<!-- <div class="row">
 								<div class="ui ten wide column">
 									<div class="ui hidden divider"></div>
 									<h3 class="text-light-blue">Activity Centered Design</h3>
@@ -182,9 +192,9 @@
 								<div class="ui six wide column">
 									<img class="ui fluid image" src="./semantic/icon_activity.png" alt="">
 								</div>
-							</div>
+							</div> -->
 							<!-- Value Proposition -->
-							<div class="row">
+							<!-- <div class="row">
 								<div class="ui ten wide column">
 
 									<h3 class="text-light-blue">Value Proposition Design</h3>
@@ -193,9 +203,9 @@
 								<div class="ui six wide column">
 									<img class="ui fluid image" src="./semantic/icon_value_proposition.png" alt="">
 								</div>
-							</div>
+							</div> -->
 							<!-- Design for implementation  -->
-							<div class="row">
+							<!-- <div class="row">
 								<div class="ui ten wide column">
 									<h3 class="text-light-blue">Design for feasibility</h3>
 									<p class="text-light-blue">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -203,12 +213,12 @@
 								<div class="ui six wide column">
 									<img class="ui fluid image" src="./semantic/icon_implement.png" alt="">
 								</div>
-							</div>
-							<div class="ui hidden divider">	</div>
-							<div class="ui hidden divider">	</div>
-							<div class="ui hidden divider">	</div>
-							<div class="ui hidden divider">	</div>
-							<div class="row">
+							</div> -->
+							<!-- <div class="ui hidden divider">	</div> -->
+							<!-- <div class="ui hidden divider">	</div> -->
+							<!-- <div class="ui hidden divider">	</div>
+							<div class="ui hidden divider">	</div> -->
+							<!-- <div class="row">
 								<div class="ui red header">Contact me <span style="">
 									<i class="ui linkedin circular inverted small red icon"></i>
 									<i class="ui github circular inverted small red icon"></i>
@@ -216,10 +226,13 @@
 									<h3 class="ui red header" style="margin-top:20px;margin-left:15%">
 										<i class="ui red phone volume control big icon"></i>
 										+31(0)626897533</h3></div>
-									</div>
-
-
+									</div> -->
 								</div>
 							</div>
-						</div>
-					</div>
+							<div class="red-border"></div>
+							<!-- <div class="intro_header" style="height:650px;z-index:-2">
+								<div class="eight wide right floated left aligned column">
+									<div class="spacer"></div>
+									<div class="spacer"></div>
+									<div class="summary-font">I do interaction design beyond user centeredness. Designing for human interaction is also about influencing social relations through technology to achieve something. I love to learn from others, explore and experiment. <span class="text-red" style="font-style:italic">This portfolio is also an experiment! I coded it from scratch and shared it on github.</span></div></div>
+							</div> -->
