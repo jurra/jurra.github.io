@@ -67,7 +67,23 @@
 			"role":"",
 			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
 			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
-			"html": "pages/CWorkTable"
+			"html": "pages/CWorkTable.html"
+		},
+
+		{"head1":"Emblematic",
+			"date":"2017",
+			"role":"",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
+			"logo":"",
+			"html": "pages/DPortraits.html"
+		},
+
+		{"head1":"Cover Design",
+			"date":"",
+			"role":"",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
+			"logo":"",
+			"html": "pages/DCovers.html"
 		}
 
 	]

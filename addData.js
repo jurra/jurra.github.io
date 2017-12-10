@@ -69,8 +69,8 @@ function adsliderInit(index) {
 
 	}
 
-	else if (index > 6){
-		index = 6;
+	else if (index > 8){
+		index = 8;
 	}
 
 	$.getJSON("data.json", function(object) {
@@ -104,5 +104,5 @@ initHome();
 function scrollDown(target){
 		$('html,body').animate({
 			scrollTop: $(target).offset().top},
-			'slow');
+			1060,'swing');
 }

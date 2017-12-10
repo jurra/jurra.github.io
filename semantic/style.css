@@ -4,6 +4,11 @@
 /*=============
   User custom CSS
 ==============*/
+#carr_init{
+	position:relative;
+	z-index: 1;
+}
+
 .blur {
   /* All the background image supports */
   transform: translate(0px, 0px, 0px);
