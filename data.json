@@ -54,7 +54,8 @@
 
 		},
 
-		{"head1":"Heart transporter",
+		{	"idx":"5",
+			"head1":"Heart transporter",
 			"date":"2010",
 			"role":"",
 			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
@@ -71,7 +72,8 @@
 		},
 
 
-		{"head1":"Cover Design",
+		{	"idx":"7",
+			"head1":"Cover Design",
 			"date":"2012",
 			"role":"",
 			"para":"This cover was made for a communication study on the narrative of EL PAIS newspaper, with regard to Cuba. It was focused on  the year 2010-11.<br><br> This work mainly aims to capture the story behind the study in an impactful manner, using some key icons like the news paper and the statue of liberty to provide some clues about the research.",
