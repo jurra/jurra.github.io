@@ -3,19 +3,15 @@ var i=0;
 function initHome(){
 	$("#codeWrapper").load("pages/home.html");
 }
-
 function initPortfolio(){
 	$("#codeWrapper").load("pages/portfolio.html");
 }
+initHome();
 
 function carr(dataPath, imgPath){
 	var html1 ='' ;
-
 	$(document).ready(function(){
-
 		$('#carr_init').html('<div class="button_ctn"><div class=""> <div class="prev ui circular icon huge red button left floated"><i class="ui left chevron icon"></i></div><div class="next circular huge red button ui icon right floated"><i class="ui right chevron icon"></i></div></div></div><div id="items" class="ui container"></div><div class="ui hidden divider"></div><div class="ui divider"></div>');
-
-
 		// html += '<div class="ui divider"></div>';
 		$.getJSON(dataPath, function(data){
 			$.each(data, function(key, value){
@@ -52,8 +48,6 @@ function carr(dataPath, imgPath){
 				$('.button_ctn').hide();
 				$('.change').removeClass('textWrapper').addClass('carText');
 			}
-
-
 		});
 	});
 
@@ -61,18 +55,13 @@ function carr(dataPath, imgPath){
 
 
 function adsliderInit(index) {
-
 	// $("#head1, #para, #img").removeClass("animated fadeIn");
 	if (index < 0){
-
 		history.go(0);
-
 	}
-
 	else if (index > 8){
 		index = 8;
 	}
-
 	$.getJSON("data.json", function(object) {
 		// Jquery animations, add classes first
 		// $("#head1, #para, #img").addClass("animated fadeIn");
@@ -89,16 +78,6 @@ function adsliderInit(index) {
 	return i=index;
 };
 
-
-initHome();
-// adsliderInit(i); //Run from the start (Init)
-
-// Sticky for buttons
-// $('.ui.sticky')
-// .sticky({
-// 	context: '#column2'
-// })
-// ;
 
 // Scroll function
 function scrollDown(target){
