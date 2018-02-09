@@ -1028,6 +1028,7 @@ header h1::after {
 */
 .intro_header {
 	height: 575px;
+	z-index: -15;
 }
 
 .spacer{

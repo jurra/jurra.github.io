@@ -4,6 +4,16 @@
 
 	[
 		{
+			"head1":"Circular Dairy farm",
+			"date":"2016-2017",
+			"para":"This project consisted on developing a vision and a concept that addresses the challenges of current european farming in dairy. Lely industries started the assignment with an open ended question: how should the dairy industry look like? We studied in depth the dairy context and the insustainable dominant relations. <br><br>Using the systems modeling, the circular economy framework and emergent technological possibilities, we proposed a set of concepts articulated as a circular concept farm.",
+			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
+			"html":"pages/A_Lely.html",
+			"carr1": "pages/carrBS/carr.json",
+			"carr2":"pages/carrBS/images"
+		},
+
+		{
 			"head1":"New LMS integration",
 			"date":"2016-2017",
 			"para":"I started in this big project, as a UX designer. The aim of this project was to switch from the previous LMS system(Blackboard) to Brigthspace. In this project I performed different design tasks which included performing deep analysis of workflows and context understanding.<br><br> Furthermore I designed solutions coherent with the working principles and structure of the new system. I developed solutions for different users(student and teachers) and use cases. I also worked on customization tasks that included designing and developing widgets.",
