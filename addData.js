@@ -59,8 +59,8 @@ function adsliderInit(index) {
 	if (index < 0){
 		history.go(0);
 	}
-	else if (index > 8){
-		index = 8;
+	else if (index > 14){
+		index = 14;
 	}
 	$.getJSON("data.json", function(object) {
 		// Jquery animations, add classes first
