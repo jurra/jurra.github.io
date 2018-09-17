@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Test with yml data syntaxis"
+title:  "Test with json data syntaxis"
 date:   2018-09-16 10:54:29 +0200
 categories: jekyll update
 ---
 <ul>
-{% for title in site.data.content %}
+{% for title in site.data.data.content %}
   <li>
-      {{ title.head }}
+      {{ title.head1 }}
   </li>
 {% endfor %}
 </ul>

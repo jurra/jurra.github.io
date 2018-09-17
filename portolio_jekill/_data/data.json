@@ -1,0 +1,143 @@
+{
+
+	"content":
+
+	[
+		{
+			"idx":"0",
+			"head1":"Circular Dairy farm",
+			"date":"2015-2016",
+			"para":"This project consisted on developing a vision and a concept that addresses the challenges of current european farming in dairy. Lely industries started the assignment with an open ended question: how should the dairy industry look like? We studied in depth the dairy context and the insustainable dominant relations. <br><br>Using the systems modeling, the circular economy framework and emergent technological possibilities, we proposed a set of concepts articulated as a circular concept farm.",
+			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
+			"html":"pages/A_Lely.html",
+			"carr1": "pages/carrBS/carr.json",
+			"carr2":"pages/carrBS/images"
+		},
+
+		{
+			"idx":"2",
+			"head1":"Open Circular Platform design for Neurorehab",
+			"date":"2016",
+			"para":"In this project a sustainable vision and technical demonstration was delivered, in the context of a YES!Delft Startup focused on Neurorehabilitation of stroke patients. The challenge was to explore how the circular economy narrative could be articulated in this domain. <br><br> As a result a circular and open platform design was presented, within a platform business model and p2p scenario. Technology wise, a component architecture was designed and selected for a specific case of equipment.",
+			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
+			"html":"pages/A_Adjuvo.html",
+			"carr1": "pages/carrBS/carr.json",
+			"carr2":"pages/carrBS/images"
+		},
+
+		{
+			"idx":"3",
+			"head1":"Screening early osteoarthritis",
+			"date":"2014",
+			"para":"This project started as an ill defined problem, where the main goal was to improve the patients journey through osteoarthritis disease. As a result of researching and visualizing opportunities , it was found that it was feasible to incorporate sound screening of knee joints to diagnose osteoarthritis at primary care.<br><br> The first stage of this project ended with early validations of the method to record knee sounds with piezoelectric technology.",
+			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
+			"html":"pages/A_ACD.html",
+			"carr1": "pages/A_ACD/carr.json",
+			"carr2":"pages/carrBS/images"
+		},
+
+		{
+			"idx":"4",
+			"head1":"New LMS integration",
+			"date":"2016-2017",
+			"para":"I started in this big project, as a UX designer. The aim of this project was to switch from the previous LMS system(Blackboard) to Brigthspace. In this project I performed different design tasks which included performing deep analysis of workflows and context understanding.<br><br> Furthermore I designed solutions coherent with the working principles and structure of the new system. I developed solutions for different users(student and teachers) and use cases. I also worked on customization tasks that included designing and developing widgets.",
+			"logo":"<img class=\"ui small image\" src=\"logos/TUDelftG.png\">",
+			"html":"pages/BSpace.html",
+			"carr1": "pages/carrBS/carr.json",
+			"carr2":"pages/carrBS/images"
+		},
+		{
+			"idx":"6",
+			"head1":"National Library of Cuba",
+			"date":"2013",
+			"para":"This project was carried out as an integrated proposal for the Cuban National Library. The core challenge was to provide an integrated solution, since the portal had a lack of commonality in the different pages and subpages. <br><br>I developed the interaction and graphic design concepts. My main focus was on intuitive navigation and search through different collections. The main proposal was to provide a set of different filtering operations combined with navigation.",
+			"logo":"<a target=\"_blank\" href=\"http://www.bnjm.cu\"><img class=\"ui small image\" src=\"logos/libraryG.png\"></a>",
+			"html":"pages/library.html",
+			"carr1": "pages/carrLib/carr.json",
+			"carr2":"pages/carrLib/images"
+		},
+
+		{
+			"idx":"7",
+			"head1":"Documentation with 3D models for the web",
+			"date":" 2017",
+			"role":"",
+			"para":"This is a threedimensional infographic of a 3D printer designed by Open Source Ecology. Click and interact through the number labels.<br><br>It is a documentation of the main features and technical novelties of this model. The aim is to engage people to replicate this machine. This project is part of a major goal in Open Source Ecology to document and share models through the web.",
+			"img":"",
+			"logo":"<img class=\"ui tiny image\" src=\"logos/oseG.png\"><div class=\"ui hidden divider\"></div>",
+			"html":"pages/3Dprinter.html"
+		},
+
+
+		{
+			"idx":"8",
+			"head1":"Optima",
+			"date":"2012",
+			"role":"",
+			"para":"Optima is android app. It was developed in the Cuban Neuroscience Center to assist National healthcare systems in the screening of learning disorders.This includes identifying Dyslexia, hearing , learning disorders, to monitor these children.<br><br>My role was to analyze the task flows and design an App that captures the activity structure. It includes navigation through databases of registered child's, introducing new child's in the system, coordination with the monitoring web application, as well as selection and running of tests. ",
+			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">",
+			"html":"pages/optima.html"
+		},
+
+
+		{
+			"idx":"9",
+			"head1":"Neurosurgery software",
+			"date":"2013",
+			"role":"",
+			"para":
+			"This assignment came from the R&D department of CNEURO. A biologist and neurosurgeon were working with the MATLAB toolbox to assist neurosurgeons in planning surgeries, but also in navigating during the operations.<br><br> My role was to develop UI proposals of a new software for neurosurgery. Part of the core activities of this project involved studying the domain of neurosurgery and neuroimaging to get insights on the workflows. I had to go to a surgery and analyze the context, as well as to MRI scan sessions.",
+			"html":"pages/neuroNav.html",
+			"logo":"<img class=\"ui tiny image\" src=\"logos/cneuroG.png\">"
+
+		},
+
+		{	"idx":"10",
+			"head1":"Modular kitchen furniture",
+			"date":"2012",
+			"role":"",
+			"para":"The goal of this project was to combine several functions in the furniture, from storage to draining (on top of the sink), comfort and ease of mount. <br><br>The result was set of three modules, that can also be used in other configurations. This furniture was done with local manufacturers, using basic tooling that can also be scaled in the context of mass production.",
+			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
+			"html": "pages/C_Kitchen.html"
+		},
+
+		{	"idx":"12",
+			"head1":"Heart transporter",
+			"date":"2010",
+			"role":"",
+			"para":"This was my Industrial Design thesis of my first 5 year Diploma back in Cuba. It is a device to transport organs, specially focused on hearts.<br><br>This concept focuses on a redesign of a type of heart transporter. This typology of device uses perfusion of blood and nutrients to keep the organ in good conditions. The proposal aims to make it more compact, lighter and easier to operate. It achieves that by changing the approach of using ice, and instead uses a peltier cell in combination with insulation.",
+			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
+			"html": "pages/heartTransport.html"
+		},
+
+		{
+			"idx":"12",
+			"head1":"Work place table",
+			"date":"2013",
+			"role":"",
+			"para":"This furniture I designed to be placed in a room studio for my place. I took the opportunity to think ahead how the space was going to be used, what type of interactions and activities would take place etc.<br><br>The result was a very comfortable place, not only with regard to usage but also circulation, and cleaning.",
+			"logo":"<img class=\"ui mini image\" src=\"logos/isdiG.png\">",
+			"html": "pages/CWorkTable.html"
+		},
+
+
+		{	"idx":"13",
+			"head1":"Cover Design",
+			"date":"2012",
+			"role":"",
+			"para":"This cover was made for a communication study on the narrative of EL PAIS newspaper, with regard to Cuba. It was focused on  the year 2010-11.<br><br> This work mainly aims to capture the story behind the study in an impactful manner, using some key icons like the news paper and the statue of liberty to provide some clues about the research.",
+			"logo":"",
+			"html": "pages/DCover.html"
+		},
+
+		{	"idx":"14",
+			"head1":"Emblematic",
+			"date":"2017",
+			"role":"",
+			"para":"This is a collection of figures that share common characteristics in that they remain as subjects of debate, and rebuilding of the history behind them, and ahead to them (musicians, leaders, artists, etc.).<br><br>These are people whose story is still latent, and unfolding. I tried to highlight this unfolding and contradictory features by trying to express the concept of incompletness using textures, and strokes that invoke street paintings, old walls, graffities.",
+			"logo":"",
+			"html": "pages/DPortraits.html"
+		}
+
+	]
+}
